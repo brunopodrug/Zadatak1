@@ -10,6 +10,6 @@ public class Bicikl extends Vozilo{
 
     @Override
     public String kretanje() {
-        return "Bicikl " + getMarka() + " " + vrsta + " se krece brzinom " + getBrzina() + " km/h";
+        return "Bicikl " + marka + " " + vrsta + " se krece brzinom " + getBrzina() + " km/h";
     }
 }

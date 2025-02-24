@@ -10,6 +10,6 @@ public class Automobil extends Vozilo{
 
     @Override
     public String kretanje() {
-        return "Automobil " + getMarka() + ", sa " + brojVrata + " vrata se krece brzinom " + getBrzina() + " km/h";
+        return "Automobil " + marka + ", sa " + brojVrata + " vrata se krece brzinom " + getBrzina() + " km/h";
     }
 }

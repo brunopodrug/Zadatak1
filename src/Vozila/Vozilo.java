@@ -1,7 +1,7 @@
 package Vozila;
 
 public abstract class Vozilo {
-    private String marka;
+    protected String marka;
     private double brzina;
 
     public Vozilo(String marka, double brzina) {
